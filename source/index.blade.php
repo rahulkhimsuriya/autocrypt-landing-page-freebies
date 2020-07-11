@@ -2,6 +2,6 @@
 
 @section('body')
 
-    @inlude('partials.header.blade.php')
+    @include('partials.header')
 
 @endsection
