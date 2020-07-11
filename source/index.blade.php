@@ -4,4 +4,6 @@
 
     @include('partials.header')
 
+    @include('partials.benefit')
+
 @endsection
