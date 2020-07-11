@@ -1,0 +1,27 @@
+@tailwind base;
+
+@tailwind components;
+
+header a:hover {
+    @apply .text-primary-light;
+}
+
+.btn {
+    @apply .inline-block .text-sm .px-8 .py-4 .text-center .font-bold .leading-none .tracking-wide;
+    border-radius: 5px 0px;
+}
+
+.btn.btn-primary {
+    @apply .bg-primary .text-white;
+}
+
+.btn-primary:hover {
+    box-shadow: 0px 8px 34px rgba(31, 219, 132, 0.6);
+}
+
+.seaction-benefit h3::after {
+    content: '';
+    @apply .block .mt-3 .w-20 .border-2 .border-primary;
+}
+
+@tailwind utilities;

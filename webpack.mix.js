@@ -1,6 +1,8 @@
 const mix = require('laravel-mix');
 require('laravel-mix-jigsaw');
 
+let tailwindcss = require('tailwindcss');
+
 mix.disableSuccessNotifications();
 mix.setPublicPath('source/assets/build');
 
@@ -9,5 +11,6 @@ mix.jigsaw()
     .sass('source/_assets/sass/main.scss', 'css')
     .options({
         processCssUrls: false,
+        postCss: [tailwindcss('./tailwind.config.js')],
     })
     .version();
