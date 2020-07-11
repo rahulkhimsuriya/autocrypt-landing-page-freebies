@@ -6,4 +6,6 @@
 
     @include('partials.benefit')
 
+    @include('partials.pricing')
+
 @endsection
