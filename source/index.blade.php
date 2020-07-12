@@ -12,4 +12,6 @@
 
     @include('partials.partner')
 
+    @include('partials.footer')
+
 @endsection
