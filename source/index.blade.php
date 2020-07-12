@@ -8,4 +8,6 @@
 
     @include('partials.pricing')
 
+    @include('partials.testimonials')
+
 @endsection

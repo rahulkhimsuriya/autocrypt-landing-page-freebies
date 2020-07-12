@@ -9,8 +9,12 @@
         <meta name="description" content="{{ $page->description }}">
         <title>{{ $page->title }}</title>
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+
+        @yield('style')
     </head>
     <body class="bg-gray-lightest">
         @yield('body')
+
+        @yield('script')
     </body>
 </html>

@@ -24,4 +24,17 @@ header a:hover {
     @apply .block .mt-3 .w-20 .border-2 .border-primary;
 }
 
+.seaction-testimonials {
+    background-image: linear-gradient(
+            90deg,
+            transparent 0%,
+            transparent 40%,
+            #313a5a 40%,
+            #313a5a 100%
+        ),
+        url('/assets/images/big-quate.svg');
+    background-repeat: no-repeat;
+    background-position: 5% 0%;
+}
+
 @tailwind utilities;
