@@ -1,14 +1,3 @@
-@section('style')
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-
-    <style type="text/css">
-        .flickity-page-dots .dot,
-        .flickity-page-dots .dot.is-selected {
-             background: white;
-        }
-    </style>
-@endsection
-
 <div class="seaction-testimonials w-full h-full mt-48 pb-20">
     <h2 class="font-bold px-16 py-2 leading-tight text-3xl text-gray-darkest">What<br/>
     Customers Say</h2>
@@ -27,18 +16,3 @@
         @endforeach
     </div>
 </div>
-
-@section('script')
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
-<script>
-    var elem = document.querySelector('.--testimonials-carousel');
-    var flkty = new Flickity( elem, {
-      // options
-      cellAlign: 'right',
-      contain: true,
-      prevNextButtons: false,
-      autoPlay: true,      
-    });
-</script>
-@endsection

@@ -8,13 +8,18 @@
         <link rel="canonical" href="{{ $page->getUrl() }}">
         <meta name="description" content="{{ $page->description }}">
         <title>{{ $page->title }}</title>
-        <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+        {{-- Material Icon --}}
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-        @yield('style')
+        {{-- flickity --}}
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> 
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        {{-- CSS --}}
+        <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
     <body class="bg-gray-lightest">
         @yield('body')
 
-        @yield('script')
+        <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </body>
 </html>

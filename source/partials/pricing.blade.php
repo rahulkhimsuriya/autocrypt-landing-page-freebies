@@ -1,5 +1,5 @@
-<div class="section-pricing container mx-auto mt-48">
-    <h2 class="font-bold text-4xl text-gray-darkest text-center">
+<div class="section-pricing container mx-auto mt-20 md:mt-48">
+    <h2 class="font-bold text-2xl md:text-4xl text-gray-darkest text-center">
         Paid plan starts with a 7-day free trial,<br/> No credit card required
     </h2>
 
@@ -10,7 +10,7 @@
         </div>
     </div>
 
-    <div class="mt-10 grid grid-cols-3 gap-20 text-center">
+    <div class="mt-10 px-10 grid md:grid-cols-3 gap-20 text-center">
         <div class="p-10 flex flex-col">
             <h4 class="font-bold text-gray-darkest">Stater</h4>
 

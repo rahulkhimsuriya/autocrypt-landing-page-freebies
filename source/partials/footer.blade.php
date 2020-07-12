@@ -1,4 +1,4 @@
-<footer class="section-footer text-center pt-40 pb-20">
+<footer class="section-footer text-center pt-16 pb-10 md:pt-40 md:pb-20">
     <p class="text-gray">&copy; 2018 autocryp All Right Reserved</p>
 
     <div class="text-center mt-8">

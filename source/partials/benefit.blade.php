@@ -1,4 +1,4 @@
-<div class="seaction-benefit mx-20 -mt-20 bg-white p-10 grid grid-cols-3 gap-20 relative rounded shadow-lg">
+<div class="seaction-benefit mx-20 -mt-20 bg-white p-10 grid grid-rows-1 gap-10 md:grid-cols-3 md:gap-20 relative rounded shadow-lg">
     <div>
         <span class="inline-block p-2 bg-primary-lightest rounded">
             <svg class="fill-current h-6 w-6 text-primary" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.5 21a1.5 1.5 0 001.5-1.5v-16A1.5 1.5 0 0023.5 2h-22A1.5 1.5 0 000 3.5v16A1.5 1.5 0 001.5 21H2v1a1 1 0 001 1h2a1 1 0 001-1v-1h13v1a1 1 0 001 1h2a1 1 0 001-1v-1h.5zm-3.55-9H17.5a.5.5 0 010-1h2.45a4.5 4.5 0 100 1zM5 22v-1H3v1h2zM4.5 5a.5.5 0 01.5.5v12a.5.5 0 01-1 0V16h-.5a.5.5 0 010-1H4v-3h-.5a.5.5 0 010-1H4V8h-.5a.5.5 0 010-1H4V5.5a.5.5 0 01.5-.5zM21 11.5a5.5 5.5 0 10-11 0 5.5 5.5 0 0011 0zM20 22v-1h2v1h-2z"/></svg>
