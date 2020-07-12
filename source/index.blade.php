@@ -10,4 +10,6 @@
 
     @include('partials.testimonials')
 
+    @include('partials.partner')
+
 @endsection
