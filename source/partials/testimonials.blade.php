@@ -22,7 +22,7 @@
 
                 <blockquote class="text-sm text-gray group-hover:text-white mt-4 flex-1">"I started driving with Uber because I liked the idea that my own car could make me money. After just about a couple weeks, I saw that this was something I wanted to do permanently."</blockquote>
 
-                <p class="text-base mt-8 group-hover:text-white"><strong class="text-gray-darkest group-hover:text-white">Brandon Roger</strong> / OWW Studio</p>
+                <p class="text-base text-gray mt-8 group-hover:text-white"><strong class="text-gray-darkest group-hover:text-white">Brandon Roger</strong> / OWW Studio</p>
             </div>
         @endforeach
     </div>
